@@ -46,6 +46,12 @@
   justify-content: space-between;
   width: 400px;
 }
+.header__hi {
+  color: #fad797;
+}
+.full-name {
+  color: #faa597;
+}
 
 /* Logos.jsx */
 .logos-container {
