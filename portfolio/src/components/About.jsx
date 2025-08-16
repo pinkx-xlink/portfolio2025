@@ -20,17 +20,16 @@ export const About = () => {
   return (
     <div className='about-me-container'>
       <div className="large centered row">
-              <p className="fancy-text">Split text by chars.
-                文字ごとに分割します。</p>
-              </div>
-
-        <p className='about-me_h2'>about</p>
-        <p className='about-me_text'>
-          Where art meets technology
+        <p className="fancy-text">
+          Split text by chars.
+          文字ごとに分割します。
         </p>
+      </div>
 
-        
-        
+      <p className='about-me_h2'>about</p>
+      <p className='about-me_text'>
+        Where art meets technology
+      </p>
     </div>
   )
 }
