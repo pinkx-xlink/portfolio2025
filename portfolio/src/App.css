@@ -41,18 +41,7 @@
   justify-content: space-between;
   width: 400px;
 }
-#header__hi {
-  color: #fad797;
-}
-.full-name {
-  color: #faa597;
-  text-decoration: underline;
-  font-style: italic;
-}
 
-.header__hi {
-  
-}
 
 
 /* MyLinks.jsx */
@@ -68,7 +57,7 @@
   transform: scale(1.5);
 }
 
-/* TextBlock.jsx */
+/* AnimatedGreeting.jsx */
 .entrance-animation
 {
   position: relative;
@@ -100,6 +89,16 @@
 {
   width: 0%;
 }
+
+#hello-world {
+  color: #fad797;
+}
+.full-name {
+  color: #faa597;
+  text-decoration: underline;
+  font-style: italic;
+}
+
 
 
 /* About.jsx */

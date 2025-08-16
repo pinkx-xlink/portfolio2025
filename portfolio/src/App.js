@@ -3,9 +3,6 @@ import Header from './components/Header';
 import { Logos } from './components/Logos';
 import { About } from './components/About';
 import { MyLinks } from './components/MyLinks';
-import TextBlock from './components/TextBlock';
-
-
 
 function App() {
   return (
@@ -18,8 +15,6 @@ function App() {
 
         <About />
         <Logos />
-        
-        <TextBlock />
 
       </header>
     </div>
