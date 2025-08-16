@@ -7,11 +7,10 @@ import { MyLinks } from './components/MyLinks';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className='app-header-container'>
-          <Header />
-          <MyLinks />
-        </div>
+      <Header />
+      <header className="App-body">
+        
+        <MyLinks />
 
         <About />
         <Logos />

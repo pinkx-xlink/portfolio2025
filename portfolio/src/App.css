@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-header {
+.App-body {
   background-color: #110815;
   min-height: 100vh;
   display: flex;
@@ -35,13 +35,6 @@
 
 
 /* Header.jsx */
-.homepage__header-container_greeting {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  width: 400px;
-}
-
 
 
 /* MyLinks.jsx */
@@ -58,6 +51,13 @@
 }
 
 /* AnimatedGreeting.jsx */
+.homepage__header-container_greeting {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .entrance-animation
 {
   position: relative;
