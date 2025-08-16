@@ -72,7 +72,7 @@
   color: #d797fa;
 }
 .my-links:hover {
-  font-size: larger;
+  transform: scale(1.5);
 }
 
 
