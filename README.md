@@ -10,6 +10,10 @@ TO-DO:
     - Add link to Sandbox demo for each project
 - Turn Logos into an infinite slideshow
 
+8/16/25 TO-DO
+- Create a Card component I can use to dynamically create and render different blocks of text in between other Components on the page
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
