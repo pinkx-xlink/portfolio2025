@@ -15,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #110815;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -66,7 +66,7 @@
 }
 .my-links {
   text-decoration: none;
-  color: white;
+  color: #d797fa;
 }
 .my-links:hover {
   font-size: larger;
