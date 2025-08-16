@@ -38,6 +38,13 @@
   }
 }
 
+.app-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
 
 /* Header.jsx */
 .homepage__header-container_greeting {

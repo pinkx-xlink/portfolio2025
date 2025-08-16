@@ -9,9 +9,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Header />
+        <div className='app-header-container'>
+          <Header />
+          <MyLinks />
+        </div>
+        
+
         <About />
-        <MyLinks />
         <Logos />
         
       </header>
