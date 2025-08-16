@@ -38,9 +38,22 @@
   }
 }
 
+
+/* Header.jsx */
 .homepage__header-container_greeting {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   width: 400px;
+}
+
+/* Logos.jsx */
+.logos-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.logos-container__html-css-and-js-container {
+  display: flex;
 }
