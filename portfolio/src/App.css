@@ -46,6 +46,8 @@
 }
 .full-name {
   color: #faa597;
+  text-decoration: underline;
+  font-style: italic;
 }
 
 
