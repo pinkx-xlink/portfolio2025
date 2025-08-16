@@ -17,8 +17,8 @@ const AnimatedGreeting = () => {
             id="hello-world">
             Hello, world!
             </p>
-            <p>
-              I'm
+            <p> 
+            I'm
             </p>
             <h1 class="entrance-animation">Shaiyan Younkin</h1>
           </div>
