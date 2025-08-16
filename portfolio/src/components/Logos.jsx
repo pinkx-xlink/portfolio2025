@@ -25,16 +25,17 @@ export const Logos = () => {
         <div>
             <img src={reactLogo} className="animated-logo" alt="React logo" />
         </div>
-        
+
+        <div>
+            <img src={nodeJsLogo} className="App-logo" alt="JavaScript logo" />
+        </div>
+
+
         <div>
             <img src={powerBiLogo} className="App-logo" alt="JavaScript logo" />
         </div>
         <div>
             <img src={sqlLogo} className="App-logo" alt="JavaScript logo" />
-        </div>
-
-        <div>
-            <img src={nodeJsLogo} className="App-logo" alt="JavaScript logo" />
         </div>
     </div>
   )
