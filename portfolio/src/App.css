@@ -60,16 +60,6 @@
   color: #faa597;
 }
 
-/* Logos.jsx */
-.logos-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  grid-template-rows: 1fr 1fr;
-}
-
-.logos-container__html-css-and-js-container {
-  display: flex;
-}
 
 
 /* MyLinks.jsx */
@@ -84,3 +74,32 @@
 .my-links:hover {
   font-size: larger;
 }
+
+
+/* About.jsx */
+.about-me-container {
+  text-align: left;
+  padding: 25px;
+}
+.about-me_h2 {
+  border-bottom: 1px solid #fad797;
+}
+.about-me_text {
+  border-left: 1px solid #fad797;
+  border-radius: 25px;
+  background-color: #ebccfe27;
+  padding: 25px;
+}
+
+
+/* Logos.jsx */
+.logos-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.logos-container__html-css-and-js-container {
+  display: flex;
+}
+
