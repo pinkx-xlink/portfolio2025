@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import { Logos } from './components/Logos';
 import { About } from './components/About';
+import { MyLinks } from './components/MyLinks';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <header className="App-header">
         <Header />
         <About />
+        <MyLinks />
         <Logos />
         
       </header>
