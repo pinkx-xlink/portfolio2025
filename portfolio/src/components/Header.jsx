@@ -24,15 +24,14 @@ animate(chars, {
 const Header = () => {
   return (
     <div className='homepage__header-container'>
-        <p className='header__hi'><b><i>hi!</i></b></p>
+      <div className="large grid centered square-grid">
+          <h2 className="text-xl" id='header__hi'>Hello, world!</h2>
+        </div>
+        
         <span className='homepage__header-container_greeting'> 
             <p>I'm</p>
             <h1 className='full-name'>Shaiyan Younkin</h1>
         </span>
-
-        <div className="large grid centered square-grid">
-          <h2 className="text-xl">HELLO WORLD</h2>
-        </div>
     </div>
   )
 }
