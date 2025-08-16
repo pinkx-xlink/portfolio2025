@@ -30,8 +30,8 @@ const Header = () => {
             <h1 className='full-name'>Shaiyan Younkin</h1>
         </span>
 
-        <div class="large grid centered square-grid">
-          <h2 class="text-xl">HELLO WORLD</h2>
+        <div className="large grid centered square-grid">
+          <h2 className="text-xl">HELLO WORLD</h2>
         </div>
     </div>
   )
