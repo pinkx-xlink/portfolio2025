@@ -12,13 +12,18 @@ const AnimatedGreeting = () => {
     <>
       <div className='homepage__header-container'>
         <div>
-            <p class="entrance-animation" id="hello-world">Hello, world!</p>
+            <p 
+            class="entrance-animation" 
+            id="hello-world">
+            Hello, world!
+            </p>
+            <p>
+              I'm
+            </p>
+            <h1 class="entrance-animation">Shaiyan Younkin</h1>
           </div>
           
-          <span className='homepage__header-container_greeting'> 
-              I'm
-              <p class = "entrance-animation" id='full-name'>Shaiyan Younkin</p>
-          </span>
+          
       </div>
     </>
   )
