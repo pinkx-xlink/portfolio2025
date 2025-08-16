@@ -10,13 +10,14 @@ function App() {
     <div className="App">
       <Header />
       <header className="App-body">
-        <Cards />
         
+
         <MyLinks />
 
         <About />
         <Logos />
 
+        <Cards />
       </header>
     </div>
   );
