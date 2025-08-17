@@ -2,6 +2,8 @@ import React from 'react'
 import CardFactory from './CardFactory';
 import './Cards.css'
 
+import gengarImg from './img/gengar.png'
+
 function Cards() {
   return (
     <div className="cards">
@@ -10,13 +12,13 @@ function Cards() {
             <div className="cards__wrapper">
                 <ul className="cards__items">
                     <CardFactory 
-                    src="./img/gengar.png"
+                    src={gengarImg}
                     text="Project 1"
                     label="PROJECT"
-                    path="/"
+                    // path="/"
                     />
                      <CardFactory
-                    src="./img/gengar.png"
+                    src={gengarImg}
                     text=""
                     label="Adventure"
                     path="/"
@@ -25,19 +27,19 @@ function Cards() {
                 {/* copy and paste card component */}
                 <ul className="cards__items">
                     <CardFactory 
-                    src="./img/gengar.png"
+                    src={gengarImg}
                     text="Travel through the Islands of Balie in a Private Cruise"
                     label="Luxury"
                     path="/"
                     />
                      <CardFactory 
-                    src="./img/gengar.png"
+                    src={gengarImg}
                     text="Travel through the Islands of Balie in a Private Cruise"
                     label="Luxury"
                     path="/"
                     />
                      <CardFactory
-                    src="./img/gengar.png"
+                    src={gengarImg}
                     text="Travel through the Islands of Balie in a Private Cruise"
                     label="Luxury"
                     path="/"
