@@ -155,6 +155,8 @@ h1 {
   line-height: calc(20px + 20vh); */
   font-size: 70px;
   line-height: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
   
 /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
     0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
@@ -228,4 +230,10 @@ body {
   text-shadow: 0 0 5px #fa97a1, 0 0 15px #fa97a1, 0 0 20px #fa97a1, 0 0 40px #fa97a1, 0 0 60px #ff0000, 0 0 10px #fa97a1, 0 0 98px #ff0000;
     color: #fff6a9;
   }
+}
+
+
+.header-content-container {
+  display: flex;
+  flex-direction: row;
 }
