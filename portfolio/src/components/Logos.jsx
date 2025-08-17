@@ -11,15 +11,14 @@ import { animate, stagger } from 'animejs';
 
 animate('.App-logo', {
   x: '17rem',
-  scale: stagger([1, .1]),
+  scale: stagger([1, 1]),
   delay: stagger(100),
 });
 
 export const Logos = () => {
   return (
     <div className='logos-container'>
-        <div className='logos-container__html-css-and-js-container'>
-            <div>
+        <div>
                 <img src={javascriptLogo} className="App-logo" alt="JavaScript logo" />
             </div>
             <div>
@@ -28,10 +27,9 @@ export const Logos = () => {
             <div>
                 <img src={cssLogo} className="App-logo" alt="JavaScript logo" />
             </div>
-        </div>
         
         <div>
-            <img src={reactLogo} className="animated-logo" alt="React logo" />
+            <img src={reactLogo} className="App-logo" id="animated-logo" alt="React logo" />
         </div>
 
         <div>
