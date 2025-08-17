@@ -118,10 +118,7 @@
 
 
 /* Logos.jsx */
-.logos-container {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .App-logo {
   height: 10vmin;
@@ -135,3 +132,42 @@
 }
 
 
+
+/* LOGOS SLIDESHOW */
+.logo-container {
+  display: flex;
+  height: 200px;
+  max-width: 800px;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+.logo-group-1, .logo-group-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.logos-container > div {
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.logos-container .logo-group-1 {
+  animation: moveSlideshow 12s linear infinite;
+}
+.logos-container .logo-group-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 15s linear infinite;
+}
+.logos-container:hover .logo-group2 {
+  opacity: 1;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}

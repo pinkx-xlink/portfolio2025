@@ -10,7 +10,7 @@ import sqlLogo from './logos/sql-logo.png';
 import { animate, stagger } from 'animejs';
 
 animate('.App-logo', {
-  x: '17rem',
+  y: '-20rem',
   scale: stagger([1, 1]),
   delay: stagger(100),
 });
@@ -18,7 +18,8 @@ animate('.App-logo', {
 export const Logos = () => {
   return (
     <div className='logos-container'>
-        <div>
+        <div className='logo-group-1'>
+            <div>
                 <img src={javascriptLogo} className="App-logo" alt="JavaScript logo" />
             </div>
             <div>
@@ -27,22 +28,26 @@ export const Logos = () => {
             <div>
                 <img src={cssLogo} className="App-logo" alt="JavaScript logo" />
             </div>
+        </div>
         
-        <div>
-            <img src={reactLogo} className="App-logo" id="animated-logo" alt="React logo" />
-        </div>
+        <div className='logo-group-2'>
+            <div>
+                <img src={reactLogo} className="App-logo" id="animated-logo" alt="React logo" />
+            </div>
 
-        <div>
-            <img src={nodeJsLogo} className="App-logo" alt="JavaScript logo" />
-        </div>
+            <div>
+                <img src={nodeJsLogo} className="App-logo" alt="JavaScript logo" />
+            </div>
 
 
-        <div>
-            <img src={powerBiLogo} className="App-logo" alt="JavaScript logo" />
+            <div>
+                <img src={powerBiLogo} className="App-logo" alt="JavaScript logo" />
+            </div>
+            <div>
+                <img src={sqlLogo} className="App-logo" alt="JavaScript logo" />
+            </div>
         </div>
-        <div>
-            <img src={sqlLogo} className="App-logo" alt="JavaScript logo" />
-        </div>
+       
     </div>
   )
 }
