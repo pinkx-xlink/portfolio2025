@@ -7,7 +7,8 @@ import gengarImg from './img/gengar.png'
 function Cards() {
   return (
     <div className="cards">
-        <h2>PROJECTS</h2>
+        <h2>Check out some of my projects</h2>
+        <p>Where art and tech intersect</p>
         <div className="cards__container">
             <div className="cards__wrapper">
                 <ul className="cards__items">
