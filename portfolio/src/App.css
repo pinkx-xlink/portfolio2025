@@ -92,6 +92,11 @@
 .my-links-container {
   display: flex;
   flex-direction: column;
+  text-align: left;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  padding-left: 35px;
+  padding-top: 15px;
 }
 .my-links {
   text-decoration: none;
@@ -118,8 +123,6 @@
 
 
 /* Logos.jsx */
-
-
 .App-logo {
   height: 10vmin;
   pointer-events: none;
