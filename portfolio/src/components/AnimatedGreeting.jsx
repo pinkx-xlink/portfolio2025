@@ -20,7 +20,7 @@ const AnimatedGreeting = () => {
             <p>
             I'm
             </p>
-            <h1 className="entrance-animation">Shaiyan Younkin</h1>
+            <h1 className="entrance-animation" id="header__animated-h1">Shaiyan Younkin</h1>
           </div>
           
           
