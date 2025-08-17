@@ -7,6 +7,14 @@ import nodeJsLogo from './logos/nodejs-logo.png';
 import powerBiLogo from './logos/power-bi-logo.png';
 import sqlLogo from './logos/sql-logo.png';
 
+import { animate, stagger } from 'animejs';
+
+animate('.App-logo', {
+  x: '17rem',
+  scale: stagger([1, .1]),
+  delay: stagger(100),
+});
+
 export const Logos = () => {
   return (
     <div className='logos-container'>
