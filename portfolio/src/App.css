@@ -38,7 +38,13 @@
   justify-content: space-between;
   width: 80%;
 }
-
+.app-body-container {
+  display: flex;
+}
+.app-body-container__sidebar {
+  display: flex;
+  flex-direction: column;
+}
 
 /* Header.jsx */
 
