@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { HelloWorld } from './HelloWorld';
 import AnimatedGreeting from './AnimatedGreeting';
 
 const Header = () => {
   return (
-    <AnimatedGreeting />
+    <>
+      <HelloWorld />
+      <AnimatedGreeting />
+    </>
+    
     
   )
 }
