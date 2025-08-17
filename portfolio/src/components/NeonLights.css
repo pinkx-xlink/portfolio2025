@@ -106,7 +106,7 @@ background-color: #1a1a1a;
  width: 100%;
   perspective: 1000px;
 }
-
+/* 
 .neon-sign__i-am {
     font-size: 3.5rem;
     line-height: 80%;
@@ -145,4 +145,4 @@ background-color: #1a1a1a;
     transform-origin: center;
     -webkit-animation: bounce 3s cubic-bezier(.37,0,.21,1.02) infinite,fonts 5s linear infinite;
     animation: bounce 3s cubic-bezier(.37,0,.21,1.02) infinite,fonts 5s linear infinite;
-}
+} */
