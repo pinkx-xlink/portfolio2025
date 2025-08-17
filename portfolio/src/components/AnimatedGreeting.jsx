@@ -14,7 +14,10 @@ const AnimatedGreeting = () => {
       <div className='homepage__header-container'>
         <div>
             {/* <p>I'm</p> */}
-            <h1 className="entrance-animation" id="header__animated-h1">I'm Shaiyan Younkin</h1>
+            <h1 className="entrance-animation" id="header__animated-h1">I'm Shaiyan Younkin
+              <p> web dev - move this el out of h1 and change the font and color</p>
+            </h1>
+            
           </div>
       </div>
     </>
