@@ -176,7 +176,7 @@
 }
 
 
-.my-links-container {
+/* .my-links-container {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -186,6 +186,17 @@
   padding-top: 15px;
   background-color: #662383;
   border-radius: 15px;
+} */
+.my-links-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: left;
+  padding-left: 35px;
+  padding-top: 15px;
+  background-color: #662383;
+  border-radius: 15px;
+  width: 80%;
 }
 .my-links {
   text-decoration: none;
@@ -239,6 +250,8 @@
 .footer-container {
   background-color: #662383;
   color: #fff;
+  border-top: 1px solid #fff;
+  border-radius: 25px;
   font-size: 2rem;
   height: 10vmax;
   display: flex;
@@ -246,7 +259,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 10rem;
-  padding-bottom: 7rem;
+  padding-bottom: 10rem;
 }
 #repo-link {
   color: #ddbbdb
