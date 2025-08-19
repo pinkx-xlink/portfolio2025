@@ -1,8 +1,13 @@
 import React from 'react'
+import reactLogo from './logos/react-logo.svg';
 
 export const Footer = () => {
   return (
     <div className='footer-container'>
+        <p>This app is powered by React</p>
+        <div>
+            <img src={reactLogo} className="App-logo" id="animated-logo" alt="React logo" />
+        </div>
         <p>
             <b>Wanna see behind-the-scenes?</b>
             Check out the repo for my portfolio here:
