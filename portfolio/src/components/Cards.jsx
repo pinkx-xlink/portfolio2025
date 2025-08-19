@@ -14,14 +14,29 @@ function Cards() {
                 <ul className="cards__items">
                     <CardFactory 
                     src={gengarImg}
-                    text="Project 1"
-                    label="PROJECT"
+                    text="
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    "
+                    label="Pokemon Style 2d Game"
                     // path="/"
                     />
                      <CardFactory
                     src={gengarImg}
-                    text=""
-                    label="Adventure"
+                    text="
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler"
+                    label="Google Clone"
                     path="/"
                     />
                 </ul>
@@ -29,20 +44,41 @@ function Cards() {
                 <ul className="cards__items">
                     <CardFactory 
                     src={gengarImg}
-                    text="Travel through the Islands of Balie in a Private Cruise"
-                    label="Luxury"
+                    text="
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler"
+                    label="Minecraft Vacation - Faux Getaway Resort Website"
                     path="/"
                     />
                      <CardFactory 
                     src={gengarImg}
-                    text="Travel through the Islands of Balie in a Private Cruise"
-                    label="Luxury"
+                    text="
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler"
+                    label="Rock, Paper, Scissors!"
                     path="/"
                     />
                      <CardFactory
                     src={gengarImg}
-                    text="Travel through the Islands of Balie in a Private Cruise"
-                    label="Luxury"
+                    text="
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler
+                    filler filler filler filler"
+                    label="Weather App"
                     path="/"
                     />
                 </ul>
