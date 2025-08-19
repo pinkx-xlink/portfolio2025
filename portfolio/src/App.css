@@ -44,6 +44,12 @@
 .app-body-container__sidebar {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.Logos-container {
+  display: flex;
+  justify-content: center;
+
 }
 
 /* Header.jsx */

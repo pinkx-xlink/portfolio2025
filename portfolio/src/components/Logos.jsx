@@ -22,7 +22,7 @@ export const Logos = () => {
             <div className='logo-morphing'></div>
         </div>
         <br/>
-        <div>
+        {/* <div>
             <img src={javascriptLogo} className="App-logo" alt="JavaScript logo" />
         </div>
         <div>
@@ -46,7 +46,7 @@ export const Logos = () => {
         </div>
         <div>
             <img src={sqlLogo} className="App-logo" alt="JavaScript logo" />
-        </div>
+        </div> */}
     </div>
   )
 }
