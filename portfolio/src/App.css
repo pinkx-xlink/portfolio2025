@@ -47,7 +47,17 @@
 }
 
 /* Header.jsx */
-
+.header-image-container {
+  border: 1px solid blueviolet;
+  background-image: radial-gradient(red, white);
+  border-radius: 200px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.header-image {
+  height: 350px;
+}
 
 /* AnimatedGreeting.jsx */
 .homepage__header-container_greeting {

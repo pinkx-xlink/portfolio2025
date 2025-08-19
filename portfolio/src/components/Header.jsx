@@ -1,7 +1,9 @@
 import React from 'react';
 import { HelloWorld } from './HelloWorld';
 import AnimatedGreeting from './AnimatedGreeting';
-import gengar from './img/gengar.png'
+import { HeaderImage } from './HeaderImage';
+
+
 const Header = () => {
   return (
     <div className='header-content-container'>
@@ -9,7 +11,7 @@ const Header = () => {
         <HelloWorld />
         <AnimatedGreeting />
       </div>
-      <img src={gengar} className='header-image'/>
+      <HeaderImage />
     </div>
     
     
