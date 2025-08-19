@@ -120,13 +120,26 @@
   border-top: 1px solid white;
   padding-left: 35px;
   padding-top: 15px;
+  background-color: #662383;
+  border-radius: 15px;
 }
 .my-links {
   text-decoration: none;
   color: #d797fa;
 }
-.my-links:hover {
+.my-link {
+  background-color: #662383;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 15px;
+}
+.my-link:hover {
   transform: scale(1.5);
+}
+.my-links__logos {
+  height: 50px;
+  border-radius: 200px;
 }
 
 /* About.jsx */
