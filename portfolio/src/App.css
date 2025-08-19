@@ -112,10 +112,17 @@
 }
 
 /* MyLinks.jsx */
-
-.spinner {
+.logo-morph-container {
   width: 300px;
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+.logo-morphing {
+  height: 250px;
+  width: 250px;
   animation: Morph 9000ms infinite;
   
 }
@@ -124,49 +131,41 @@
   background-image: url('./components/logos/react-logo.svg');
   background-size: 100px;
   background-repeat: no-repeat;
-   border-radius: 50%;
  }
  14% {
     background-image: url('./components/logos/html-logo.png');
     background-size: 100px;
-  background-repeat: no-repeat;
-   border-radius: 0%;
+    background-repeat: no-repeat;
  }
  25% {
   background-image: url('./components/logos/javascript-logo.png');
   background-size: 100px;
   background-repeat: no-repeat;
-   border-radius: 50%;
  }
  34% {
   background-image: url('./components/logos/nodejs-logo.png');
   background-size: 100px;
   background-repeat: no-repeat;
-   border-radius: 50%;
  }
  45% {
   background-image: url('./components/logos/power-bi-logo.png');
   background-size: 100px;
   background-repeat: no-repeat;
-   border-radius: 50%;
  }
  54% {
   background-image: url('./components/logos/sql-logo.png');
   background-size: 100px;
   background-repeat: no-repeat;
-   border-radius: 50%;
  }
  69% {
   background-image: url('./components/logos/css-logo.png');
   background-size: 100px;
   background-repeat: no-repeat;
-   border-radius: 50%;
  }
  85% {
   background-image: url('./components/logos/css-logo.png');
   background-size: 100px;
   background-repeat: no-repeat;
-   border-radius: 50%;
  }
 }
 
