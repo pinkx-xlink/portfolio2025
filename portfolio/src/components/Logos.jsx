@@ -18,6 +18,7 @@ animate('.App-logo', {
 export const Logos = () => {
   return (
     <div className='logos-container'>
+        <div className="spinner"></div>
         <div>
             <img src={javascriptLogo} className="App-logo" alt="JavaScript logo" />
         </div>
