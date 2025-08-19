@@ -228,3 +228,16 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.footer-container {
+  background-color: #662383;
+  color: #fff;
+  font-size: 2rem;
+  height: 10vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#repo-link {
+  color: #ddbbdb
+}

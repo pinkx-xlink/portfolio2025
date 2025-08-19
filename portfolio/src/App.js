@@ -7,6 +7,7 @@ import { Logos } from './components/Logos';
 import { About } from './components/About';
 import { MyLinks } from './components/MyLinks';
 import Cards from './components/Cards';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         </div>
       
       </header>
+      <Footer />
     </div>
   );
 }
