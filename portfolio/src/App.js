@@ -17,10 +17,13 @@ function App() {
         <div className='app-body-container'>
           <div className='app-body-container__sidebar'>
             <MyLinks />
-            <About />
             <Logos />
           </div>
-          <Cards />
+          <div className='app-body-container__main-content'>
+             <About />
+             <Cards />
+          </div>
+          
         </div>
       
       </header>
