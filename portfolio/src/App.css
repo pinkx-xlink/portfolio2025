@@ -138,8 +138,7 @@
   transform: scale(1.5);
 }
 .my-links__logos {
-  height: 50px;
-  border-radius: 200px;
+  width: 70px;
 }
 
 /* About.jsx */
