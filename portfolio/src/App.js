@@ -17,7 +17,7 @@ function App() {
       
         <div className='app-body-container'>
           <div className='app-body-container__sidebar'>
-            <MyLinks />
+            {/* <MyLinks /> */}
             <div className='Logos-container'>
               <Logos />
             </div>
