@@ -5,7 +5,7 @@ import './Cards.css'
 import gengarImg from './img/gengar.png';
 
 import pokemonGameScreenshot from './projectScreenshots/pokemonStyleGame.jpeg';
-import googleCloneScreenshot from './projectScreenshots/googleCloneScreenshot.jpeg';
+import googleCloneScreenshot from './projectScreenshots/googleClone.jpeg';
 function Cards() {
   return (
     <div className="cards">
@@ -37,11 +37,15 @@ function Cards() {
                     filler filler filler filler
                     filler filler filler filler
                     filler filler filler filler
-                    filler filler filler filler"
+                    filler filler filler filler
+                    <a href='https://shaiyans-google-clone.netlify.app/' target='_blank'>
+                    Try it </a>
+                    "
                     label="Google Clone"
                     path="/"
                     />
                 </ul>
+
                 {/* copy and paste card component */}
                 <ul className="cards__items">
                     <CardFactory 

@@ -23,6 +23,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
 }
 
 .App-link {
@@ -37,6 +41,10 @@
     transform: rotate(360deg);
   }
 }
+.app-body-container__main-content {
+
+}
+
 
 .app-header-container{
   display: flex;
