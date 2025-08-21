@@ -2,8 +2,10 @@ import React from 'react'
 import CardFactory from './CardFactory';
 import './Cards.css'
 
-import gengarImg from './img/gengar.png'
+import gengarImg from './img/gengar.png';
 
+import pokemonGameScreenshot from './projectScreenshots/pokemonStyleGame.jpeg';
+import googleCloneScreenshot from './projectScreenshots/googleCloneScreenshot.jpeg';
 function Cards() {
   return (
     <div className="cards">
@@ -13,7 +15,7 @@ function Cards() {
             <div className="cards__wrapper">
                 <ul className="cards__items">
                     <CardFactory 
-                    src={gengarImg}
+                    src={pokemonGameScreenshot}
                     text="
                     filler filler filler filler
                     filler filler filler filler
@@ -27,7 +29,7 @@ function Cards() {
                     // path="/"
                     />
                      <CardFactory
-                    src={gengarImg}
+                    src={googleCloneScreenshot}
                     text="
                     filler filler filler filler
                     filler filler filler filler
