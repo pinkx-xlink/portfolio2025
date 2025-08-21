@@ -18,11 +18,12 @@ function App() {
         <div className='app-body-container'>
           <div className='app-body-container__sidebar'>
             {/* <MyLinks /> */}
-            <div className='Logos-container'>
-              <Logos />
-            </div>
+            
           </div>
           <div className='app-body-container__main-content'>
+             <div className='Logos-container'>
+              <Logos />
+            </div>
              <About />
              <Cards />
           </div>
