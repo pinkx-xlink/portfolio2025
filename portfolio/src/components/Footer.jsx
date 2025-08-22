@@ -6,8 +6,7 @@ import { MyLinks } from './MyLinks';
 export const Footer = () => {
   return (
     <div className='footer-container'>
-        <MyLinks />
-        <p>This app is powered by React</p>
+        <p>This portfolio is powered by React</p>
         <div>
             <img src={reactLogo} className="App-logo" id="animated-logo" alt="React logo" />
         </div>
@@ -21,6 +20,7 @@ export const Footer = () => {
             id='repo-link'
             >Portfolio Repository</a>
         </p>
+        <MyLinks />
     </div>
   )
 }
