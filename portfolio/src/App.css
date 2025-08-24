@@ -202,8 +202,8 @@
   flex-direction: row;
   text-align: left;
   padding-left: 35px;
-  padding-top: 15px;
-  background-color: #662383;
+  
+  background-color: #381149;
   border-radius: 15px;
   width: 80%;
 }
@@ -212,7 +212,7 @@
   color: #d797fa;
 }
 .my-link {
-  background-color: #662383;
+  background-color: #381149;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -255,7 +255,7 @@
 
 /* FOOTER.JSX */
 .footer-container {
-  background-color: #662383;
+  background-color: #381149;
   color: #fff;
   border-top: 1px solid #fff;
   border-radius: 25px;

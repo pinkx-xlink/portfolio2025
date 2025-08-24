@@ -69,13 +69,8 @@ function Cards() {
                         <CardFactory 
                         src={rockPaperScissorsScreenshot}
                         text="
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler"
+                        
+                        "
                         label="Rock, Paper, Scissors!"
                         path="/"
                         />
