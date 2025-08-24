@@ -7,6 +7,7 @@ import gengarImg from './img/gengar.png';
 import pokemonGameScreenshot from './projectScreenshots/pokemonStyleGame.jpeg';
 import googleCloneScreenshot from './projectScreenshots/googleClone.jpeg';
 import minecraftSiteScreenshot from './projectScreenshots/minecraft-site-screenshot.jpeg';
+import rockPaperScissorsScreenshot from './projectScreenshots/rock-paper-scissors-screenshot.jpeg';
 
 function Cards() {
   return (
@@ -64,9 +65,9 @@ function Cards() {
                         />
                     </a>
 
-                    <a href=''>
+                    <a href='https://shaiyans-rock-paper-scissors-app.netlify.app/' target='_blank'>
                         <CardFactory 
-                        src={gengarImg}
+                        src={rockPaperScissorsScreenshot}
                         text="
                         filler filler filler filler
                         filler filler filler filler
