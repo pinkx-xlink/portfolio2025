@@ -84,12 +84,6 @@ function Cards() {
                         No friends? No problem. 
                         Give this Rock, Paper, Scissors game
                         a shot--no player 2 needed. Made using HTML, CSS, and JavaScript.
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
                         "
                         label="Rock, Paper, Scissors!"
                         path="/"
@@ -103,16 +97,8 @@ function Cards() {
                     <CardFactory
                         src={gengarImg}
                         text="
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler
-                        filler filler filler filler"
+                        
+                        "
                         label="Weather App"
                         path="/"
                         />
