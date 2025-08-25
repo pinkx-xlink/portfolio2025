@@ -17,7 +17,7 @@ function Cards() {
         <div className="cards__container">
             <div className="cards__wrapper">
                 <ul className="cards__items">
-                    <div className='card'> 
+                    <div className='card'>
                         <CardFactory 
                         src={pokemonGameScreenshot}
                         text="
@@ -37,8 +37,7 @@ function Cards() {
                     </div>
 
                     
-
-                    <a href='https://shaiyans-google-clone.netlify.app/' target='_blank'>
+                    <div className='card'> 
                         <CardFactory
                         src={googleCloneScreenshot}
                         text="
@@ -49,13 +48,17 @@ function Cards() {
                         label="Google Clone"
                         path="/"
                         />
-                    </a>
+                        <a href='https://shaiyans-google-clone.netlify.app/' target='_blank'>
+                        Live Demo
+                        </a>
+                    </div>
+                    
                 </ul>
 
                 {/* copy and paste card component */}
                 <ul className="cards__items">
-                    <a href='https://minecraft-getaway-resort.netlify.app/' target='_blank'>
-                        <CardFactory 
+                <div className='card'> 
+                    <CardFactory 
                         src={minecraftSiteScreenshot}
                         text="
                         I made this app for the 2025 MLH Cloud Week Hackathon.
@@ -67,10 +70,14 @@ function Cards() {
                         "
                         label="Minecraft Vacation - Faux Getaway Resort Website"
                         path="/"
-                        />
+                    />
+                    <a href='https://minecraft-getaway-resort.netlify.app/' target='_blank'>
+                       Live Demo 
                     </a>
+                </div>
+                    
 
-                    <a href='https://shaiyans-rock-paper-scissors-app.netlify.app/' target='_blank'>
+                    <div className='card'> 
                         <CardFactory 
                         src={rockPaperScissorsScreenshot}
                         text="
@@ -87,10 +94,13 @@ function Cards() {
                         label="Rock, Paper, Scissors!"
                         path="/"
                         />
-                    </a>
+                        <a href='https://shaiyans-rock-paper-scissors-app.netlify.app/' target='_blank'>
+                       Live Demo
+                        </a>
+                    </div>
 
-                    <a href=''>
-                        <CardFactory
+                    <div className='card'> 
+                    <CardFactory
                         src={gengarImg}
                         text="
                         filler filler filler filler
@@ -106,7 +116,10 @@ function Cards() {
                         label="Weather App"
                         path="/"
                         />
-                    </a>
+                         <a href=''>
+                       Live Demo 
+                        </a>
+                    </div>
                 </ul>
             </div>
         </div>
