@@ -1,6 +1,7 @@
 import React from 'react'
 import CardFactory from './CardFactory';
 import './Cards.css'
+import { PowerBIProject } from './projectScreenshots/PowerBIProject/PowerBIProject';
 
 import gengarImg from './img/gengar.png';
 
@@ -109,6 +110,7 @@ function Cards() {
                         />
                          <a href=''>
                         Demo 
+                        <PowerBIProject />
                         </a>
                     </div>
                 </ul>
