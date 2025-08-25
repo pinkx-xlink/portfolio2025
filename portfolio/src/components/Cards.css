@@ -49,6 +49,15 @@
     padding-bottom: 2rem;
   }
   
+  .card > a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .card:hover > a {
+    text-decoration: underline;
+    transform: scale(1.25);
+  }
+
   .cards__item__pic-wrap {
     position: relative;
     width: 100%;
