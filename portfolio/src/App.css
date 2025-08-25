@@ -236,7 +236,9 @@
   border-left: 1px solid #fad797;
   border-radius: 25px;
   background-color: #ebccfe27;
-  padding: 25px;
+  padding-top: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
 
