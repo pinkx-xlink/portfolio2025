@@ -35,7 +35,6 @@
     border-radius: 10px;
   }
 
-  
 .card {
     display: flex;
     flex-flow: column;
@@ -84,7 +83,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: #f41f1f;
     box-sizing: border-box;
   }
   
