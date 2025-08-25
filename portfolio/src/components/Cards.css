@@ -47,6 +47,7 @@
     overflow: hidden;
     text-decoration: none;
     padding-bottom: 2rem;
+    margin: 15px;
   }
   .card:hover {
     background-color: #ffffff09;
