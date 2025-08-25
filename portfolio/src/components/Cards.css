@@ -21,7 +21,7 @@
   
   .cards__wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    margin: 10px 0 45px;
   }
   
   .cards__items {
@@ -47,6 +47,9 @@
     overflow: hidden;
     text-decoration: none;
     padding-bottom: 2rem;
+  }
+  .card:hover {
+    background-color: #ffffff09;
   }
   
   .card > a {
