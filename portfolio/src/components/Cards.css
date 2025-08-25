@@ -35,9 +35,6 @@
     border-radius: 10px;
   }
 
-  .cards__item > a {
-    width: 300%;
-  }
   
 .card {
     display: flex;
@@ -77,6 +74,12 @@
     box-sizing: border-box;
   }
   
+  .cards__item__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .cards__item__img {
     position: absolute;
     top: 0;
