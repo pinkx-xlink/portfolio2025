@@ -17,7 +17,7 @@ function Cards() {
         <div className="cards__container">
             <div className="cards__wrapper">
                 <ul className="cards__items">
-                    <a href='https://pokemonstylegame.netlify.app/' target='_blank'>
+                    <div className='card'> 
                         <CardFactory 
                         src={pokemonGameScreenshot}
                         text="
@@ -31,7 +31,12 @@ function Cards() {
                         label="Pokemon Style 2d Game - DEMO"
                         // path="/"
                         />
-                    </a>
+                        <a href='https://pokemonstylegame.netlify.app/' target='_blank'>
+                        Live Demo
+                        </a>
+                    </div>
+
+                    
 
                     <a href='https://shaiyans-google-clone.netlify.app/' target='_blank'>
                         <CardFactory
@@ -69,7 +74,15 @@ function Cards() {
                         <CardFactory 
                         src={rockPaperScissorsScreenshot}
                         text="
-                        
+                        No friends? No problem. 
+                        Give this Rock, Paper, Scissors game
+                        a shot--no player 2 needed. Made using HTML, CSS, and JavaScript.
+                        filler filler filler filler
+                        filler filler filler filler
+                        filler filler filler filler
+                        filler filler filler filler
+                        filler filler filler filler
+                        filler filler filler filler
                         "
                         label="Rock, Paper, Scissors!"
                         path="/"
@@ -80,6 +93,9 @@ function Cards() {
                         <CardFactory
                         src={gengarImg}
                         text="
+                        filler filler filler filler
+                        filler filler filler filler
+                        filler filler filler filler
                         filler filler filler filler
                         filler filler filler filler
                         filler filler filler filler
