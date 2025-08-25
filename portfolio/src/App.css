@@ -208,7 +208,7 @@
 }
 .my-links {
   text-decoration: none;
-  color: #d797fa;
+  color: #fff;
 }
 .my-link {
   background-color: #381149;
@@ -228,6 +228,7 @@
 .about-me-container {
   text-align: left;
   padding: 25px;
+  text-shadow: 2px 2px 4px rgba(231, 37, 37, 0.945);
 }
 .about-me_h2 {
   border-bottom: 1px solid #fad797;
@@ -268,6 +269,7 @@
   justify-content: center;
   padding-top: 10rem;
   padding-bottom: 10rem;
+  text-shadow: 2px 2px 4px rgba(231, 37, 37, 0.945);
 }
 #repo-link {
   color: #ddbbdb

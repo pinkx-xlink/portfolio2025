@@ -1,3 +1,6 @@
+p {
+
+}
 
 .cards {
     padding: 4rem;
@@ -6,6 +9,7 @@
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(231, 37, 37, 0.945);
   }
 
   h1 {
@@ -77,14 +81,17 @@
     content: attr(data-category);
     position: absolute;
     bottom: 0;
+    left: 0;
     margin-left: 10px;
     padding: 6px 8px;
     max-width: calc((100%) - 60px);
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 700;
-    color: #fff;
-    background-color: #f41f1f;
+    color: #000;
+    background-color: #d797fa;
     box-sizing: border-box;
+    border-radius: 25px;
+
   }
   
   .cards__item__link {
