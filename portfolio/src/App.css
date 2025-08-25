@@ -4,12 +4,7 @@
   align-items: baseline;
 }
 
-.Logos-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
+
 .App {
   text-align: center;
 }
@@ -63,6 +58,10 @@
 .Logos-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100px;
+  padding-top: 2rem;
 }
 
 /* Header.jsx */
