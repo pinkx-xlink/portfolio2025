@@ -8,6 +8,7 @@ import pokemonGameScreenshot from './projectScreenshots/pokemonStyleGame.jpeg';
 import googleCloneScreenshot from './projectScreenshots/googleClone.jpeg';
 import minecraftSiteScreenshot from './projectScreenshots/minecraft-site-screenshot.jpeg';
 import rockPaperScissorsScreenshot from './projectScreenshots/rock-paper-scissors-screenshot.jpeg';
+import dashboardScreenshot from './projectScreenshots/dashboard-screenshot3.png';
 
 function Cards() {
   return (
@@ -95,15 +96,19 @@ function Cards() {
 
                     <div className='card'> 
                     <CardFactory
-                        src={gengarImg}
+                        src={dashboardScreenshot}
                         text="
-                        
+                        This Power BI dashboard displays student 
+                        test scores per year, and how these scores are affected
+                        by factors such as extra cirriculars, grade, tutoring, 
+                        and even time of tutoring.
+                        *All data used in this dashboard is fake.
                         "
-                        label="Weather App"
+                        label="Power BI Test Scores Dashboard"
                         path="/"
                         />
                          <a href=''>
-                       Live Demo 
+                        Demo 
                         </a>
                     </div>
                 </ul>
