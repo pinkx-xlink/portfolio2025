@@ -11,6 +11,9 @@ export const About = () => {
         for front-end development.
         <br/>
         <br/>
+        Here are some of my skills:
+        <br/>
+        <br/>
         HTML ✨ JS ✨ CSS ✨ Node.js ✨ React ✨ Power BI ✨ SQL
         <br/>
         <br/>
