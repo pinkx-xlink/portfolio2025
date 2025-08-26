@@ -11,8 +11,8 @@ export const Footer = () => {
             <img src={reactLogo} className="App-logo" id="animated-logo" alt="React logo" />
         </div>
         <p>
-            <b>Wanna see behind-the-scenes?</b>
-            Check out the repo for my portfolio here:
+            <b>Wanna see behind the scenes? </b>
+             Check out the repo for my portfolio here:
             <br/>
             <a 
             href="https://github.com/pinkx-xlink/portfolio2025" 

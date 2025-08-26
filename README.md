@@ -1,18 +1,3 @@
-TO-DO:
-- Add slide-in animation to header when the page loads
-    -   Make the header fade out as the user scrolls down, and face back in as the user scrolls up
-- Make the hover effect on the links smoother; enlarge text without moving any other links
-- Add Routes
-- Create a Route for the Projects page
-- PROJECTS PAGE:
-    - Add screenshots for each project
-    - Add link to each project that leads to a live demo of it
-    - Add link to Sandbox demo for each project
-- Turn Logos into an infinite slideshow
-
-8/16/25 TO-DO
-- Create a Card component I can use to dynamically create and render different blocks of text in between other Components on the page
-
 
 # React + Vite
 
