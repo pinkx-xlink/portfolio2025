@@ -9,19 +9,20 @@ export const About = () => {
         {'<'} full-stack web dev {'>'}
       </p>
       <p className='about-me_text'>
-        Hi, I'm Shaiyan! Full-time artist, cat-mom, reader, fashion designer, seamtress... oh yeah, and sometimes a programmer. 
+        Hi, I'm Shaiyan! Full-time artist, cat-mom, reader, fashion designer, seamstress... oh yeah, and sometimes a programmer. 
         <br/>
         <br/>
         I love creating unique, eye-catching, and user-friendly
         apps that are memorable and easy to navigate. I'm also passionate
-        about game development.
+        about game development and animation.
         <br/>
         <br/>
         In my free time, I love creating new apps from my own
         imagination, as well as following tutorials and courses
         to expand my horizons and learn more advanced methods.
         My skills include:
-        HTML ✨ JS ✨ CSS ✨ Node.js ✨ React ✨ Power BI ✨ SQL
+        <br/>
+        °˖ꕥ HTML ꕥ JS ꕥ CSS ꕥ Node.js ꕥ React ꕥ Power BI ꕥ SQL ꕥ˖°
         <br/>
         <br/>
 
