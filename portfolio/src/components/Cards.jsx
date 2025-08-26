@@ -1,9 +1,13 @@
 import React from 'react'
-//import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import CardFactory from './CardFactory';
 import './Cards.css';
 
-//import { PowerBIProject } from './PowerBIProject/PowerBIProject';
+import PowerBIProject from './PowerBIProject/PowerBIProject';
 
 import gengarImg from './img/gengar.png';
 
@@ -12,6 +16,9 @@ import googleCloneScreenshot from './projectScreenshots/googleClone.jpeg';
 import minecraftSiteScreenshot from './projectScreenshots/minecraft-site-screenshot.jpeg';
 import rockPaperScissorsScreenshot from './projectScreenshots/rock-paper-scissors-screenshot.jpeg';
 import dashboardScreenshot from './projectScreenshots/dashboard-screenshot3.png';
+
+
+
 
 function Cards() {
   return (
@@ -27,7 +34,7 @@ function Cards() {
                         text="
                         Made using HTML, canvas, JavaScript, and CSS.
                         A 2D Pokemon-style game made using 
-                        sprites, animation, and a Tile map. 
+                        sprites, gsap animation, and a Tile map customized to my liking down to the last pixel. 
                         Enjoy the nostalgic music, map 
                         exploration, and battling monsters...
                         and more to come. 
@@ -108,24 +115,13 @@ function Cards() {
                         *All data used in this dashboard is fake.
                         "
                         label="Power BI Test Scores Dashboard"
-                        path="/"
-                        />
                         
-                        {/* Demo 
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href='/powerBi'>Project</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <BrowserRouter>
-                            <Switch>
-                                <Route path="/powerBi">
-                                    <PowerBIProject />
-                                </Route>
-                            </Switch>
-                        </BrowserRouter> */}
+                        />
+                        <a href='/powerBiProject'>Demo</a>
+                        {/* <Routes>
+                            <Route path="powerBiProject" element={<PowerBIProject />} />
+                        </Routes> */}
+                       
                        
                     </div>
                 </ul>
