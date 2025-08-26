@@ -1,0 +1,10 @@
+.project__container {
+  border-left: 1px solid #fad797;
+  border-radius: 25px;
+  background-color: #ebccfe27;
+  padding-top: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+  text-shadow: 2px 2px 4px rgba(231, 37, 37, 0.945);
+  color: #fff;
+}
