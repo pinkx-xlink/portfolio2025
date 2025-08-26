@@ -117,7 +117,7 @@ function Cards() {
                         label="Power BI Test Scores Dashboard"
                         
                         />
-                        <a href='/powerBiProject'>Demo</a>
+                        <a href='/powerBiProject' target='_blank'>Demo</a>
                         {/* <Routes>
                             <Route path="powerBiProject" element={<PowerBIProject />} />
                         </Routes> */}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {projectScreenshot1} from '/img/dashboard-screenshot3.png';
+import projectScreenshot1 from './img/dashboard-screenshot3.png';
 
 export default function PowerBIProject() {
   return (
