@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './PowerBIProject.css';
+
 import projectScreenshot1 from './img/dashboard-screenshot.png';
 import projectScreenshot2 from './img/dashboard-screenshot1.png';
 import projectScreenshot3 from './img/dashboard-screenshot2.png';
