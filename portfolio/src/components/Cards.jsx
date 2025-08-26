@@ -1,7 +1,9 @@
 import React from 'react'
+//import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import CardFactory from './CardFactory';
-import './Cards.css'
-import { PowerBIProject } from './projectScreenshots/PowerBIProject/PowerBIProject';
+import './Cards.css';
+
+//import { PowerBIProject } from './PowerBIProject/PowerBIProject';
 
 import gengarImg from './img/gengar.png';
 
@@ -108,10 +110,23 @@ function Cards() {
                         label="Power BI Test Scores Dashboard"
                         path="/"
                         />
-                         <a href=''>
-                        Demo 
-                        <PowerBIProject />
-                        </a>
+                        
+                        {/* Demo 
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href='/powerBi'>Project</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <BrowserRouter>
+                            <Switch>
+                                <Route path="/powerBi">
+                                    <PowerBIProject />
+                                </Route>
+                            </Switch>
+                        </BrowserRouter> */}
+                       
                     </div>
                 </ul>
             </div>
