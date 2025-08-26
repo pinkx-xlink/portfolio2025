@@ -12,12 +12,19 @@ export const About = () => {
         Hi, I'm Shaiyan! Full-time artist, cat-mom, reader, fashion designer, seamtress... oh yeah, and sometimes a programmer. 
         <br/>
         <br/>
-        Here are some of my skills:
+        I love creating unique, eye-catching, and user-friendly
+        apps that are memorable and easy to navigate. I'm also passionate
+        about game development.
         <br/>
         <br/>
+        In my free time, I love creating new apps from my own
+        imagination, as well as following tutorials and courses
+        to expand my horizons and learn more advanced methods.
+        My skills include:
         HTML ✨ JS ✨ CSS ✨ Node.js ✨ React ✨ Power BI ✨ SQL
         <br/>
         <br/>
+
         <div className='Logos-container'>
           <Logos />
         </div>
