@@ -31,7 +31,7 @@ export default function PowerBIProject() {
         </div>
 
         <div className='project__item'>
-          <h3>Test Scores Data Analytics</h3>
+          <h3>Average Test Scores By Grade</h3>
           <img src={projectScreenshot3} alt=" "/>
           <p className='project__item__p-text'>
             If we hover over a bar in the chart, we can view the average
@@ -40,7 +40,7 @@ export default function PowerBIProject() {
         </div>
 
         <div className='project__item'>
-          <h3>Test Scores Data Analytics</h3>
+          <h3>Filter by County/Counties</h3>
           <img src={projectScreenshot4} alt=" "/>
           <p className='project__item__p-text'>
             We can use the search tool at the top right of the dashboard
@@ -50,7 +50,7 @@ export default function PowerBIProject() {
         </div>
 
         <div className='project__item'>
-          <h3>Test Scores Data Analytics</h3>
+          <h3>Filtered Data</h3>
           <img src={projectScreenshot5} alt=" "/>
           <p className='project__item__p-text'>
             In this image, we've selected Oakwood County, and are viewing average Reading scores
@@ -59,7 +59,7 @@ export default function PowerBIProject() {
         </div>
 
         <div className='project__item'>
-          <h3>Test Scores Data Analytics</h3>
+          <h3>AI Q&A</h3>
           <img src={projectScreenshot6} alt=" "/>
           <p className='project__item__p-text'>
             Here is a Q&A panel where the user can type in frequently asked questions
@@ -69,7 +69,7 @@ export default function PowerBIProject() {
         </div>
 
         <div className='project__item'>
-          <h3>Test Scores Data Analytics</h3>
+          <h3>Data Visuals from Q&A</h3>
           <img src={projectScreenshot7} alt=" "/>
           <p className='project__item__p-text'>
             Now, the dashboard has created a map with the information requested in the 
@@ -78,7 +78,7 @@ export default function PowerBIProject() {
         </div>
 
         <div className='project__item'>
-          <h3>Test Scores Data Analytics</h3>
+          <h3>Getting More Info from Visuals</h3>
           <img src={projectScreenshot8} alt=" "/>
           <p className='project__item__p-text'>
             Hovering over a bar in the chart will provide us with more information.
@@ -86,7 +86,7 @@ export default function PowerBIProject() {
         </div>
 
         <div className='project__item'>
-          <h3>Test Scores Data Analytics</h3>
+          <h3>Functional Button Logo</h3>
           <img src={projectScreenshot11} alt=" "/>
           <p className='project__item__p-text'>
             Last but not least, the logo in the top left corner of the dashboard 
