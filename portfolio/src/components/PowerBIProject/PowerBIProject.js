@@ -24,65 +24,76 @@ export default function PowerBIProject() {
         <div className='project__item'>
           <h3>Test Scores Data Analytics</h3>
           <img src={projectScreenshot1} alt=" "/>
-          <p className='project__item__p-text'>filler text filler filler</p>
+          <p className='project__item__p-text'>
+            This Power BI dashboard uses randomized FAKE data of 
+            student's test scores across US states in Reading and Math.
+          </p>
         </div>
 
         <div className='project__item'>
           <h3>Test Scores Data Analytics</h3>
-          <img src={projectScreenshot1} alt=" "/>
-          <p className='project__item__p-text'>filler text filler filler</p>
+          <img src={projectScreenshot3} alt=" "/>
+          <p className='project__item__p-text'>
+            If we hover over a bar in the chart, we can view the average
+          Reading score based on grade.
+          </p>
         </div>
 
         <div className='project__item'>
           <h3>Test Scores Data Analytics</h3>
-          <img src={projectScreenshot1} alt=" "/>
-          <p className='project__item__p-text'>filler text filler filler</p>
+          <img src={projectScreenshot4} alt=" "/>
+          <p className='project__item__p-text'>
+            We can use the search tool at the top right of the dashboard
+            to refine the dashboard info even more, and only see the scores
+            for one or multiple select counties.
+          </p>
         </div>
 
         <div className='project__item'>
           <h3>Test Scores Data Analytics</h3>
-          <img src={projectScreenshot1} alt=" "/>
-          <p className='project__item__p-text'>filler text filler filler</p>
+          <img src={projectScreenshot5} alt=" "/>
+          <p className='project__item__p-text'>
+            In this image, we've selected Oakwood County, and are viewing average Reading scores
+            for grades 9 through 12 in this county. 
+          </p>
         </div>
+
         <div className='project__item'>
           <h3>Test Scores Data Analytics</h3>
-          <img src={projectScreenshot1} alt=" "/>
-          <p className='project__item__p-text'>filler text filler filler</p>
+          <img src={projectScreenshot6} alt=" "/>
+          <p className='project__item__p-text'>
+            Here is a Q&A panel where the user can type in frequently asked questions
+            and receive visuals of the requested information. In this image, we've asked
+            to see the reading score average by state on a map.
+          </p>
         </div>
+
         <div className='project__item'>
           <h3>Test Scores Data Analytics</h3>
-          <img src={projectScreenshot1} alt=" "/>
-          <p className='project__item__p-text'>filler text filler filler</p>
+          <img src={projectScreenshot7} alt=" "/>
+          <p className='project__item__p-text'>
+            Now, the dashboard has created a map with the information requested in the 
+            previous image. 
+          </p>
         </div>
+
         <div className='project__item'>
           <h3>Test Scores Data Analytics</h3>
-          <img src={projectScreenshot1} alt=" "/>
-          <p className='project__item__p-text'>filler text filler filler</p>
+          <img src={projectScreenshot8} alt=" "/>
+          <p className='project__item__p-text'>
+            Hovering over a bar in the chart will provide us with more information.
+          </p>
         </div>
+
         <div className='project__item'>
           <h3>Test Scores Data Analytics</h3>
-          <img src={projectScreenshot1} alt=" "/>
-          <p className='project__item__p-text'>filler text filler filler</p>
-        </div>
-        <div className='project__item'>
-          <h3>Test Scores Data Analytics</h3>
-          <img src={projectScreenshot1} alt=" "/>
-          <p className='project__item__p-text'>filler text filler filler</p>
-        </div>
-        <div className='project__item'>
-          <h3>Test Scores Data Analytics</h3>
-          <img src={projectScreenshot1} alt=" "/>
-          <p className='project__item__p-text'>filler text filler filler</p>
-        </div>
-        <div className='project__item'>
-          <h3>Test Scores Data Analytics</h3>
-          <img src={projectScreenshot1} alt=" "/>
-          <p className='project__item__p-text'>filler text filler filler</p>
-        </div>
-        <div className='project__item'>
-          <h3>Test Scores Data Analytics</h3>
-          <img src={projectScreenshot1} alt=" "/>
-          <p className='project__item__p-text'>filler text filler filler</p>
+          <img src={projectScreenshot11} alt=" "/>
+          <p className='project__item__p-text'>
+            Last but not least, the logo in the top left corner of the dashboard 
+            is a functional button that will redirect to the Pragmatic Academy website,
+            where you can find loads of educational content and courses on Power BI and data analytics. 
+            (Not sponsored--I'm just a big fan of learning.)
+          </p>
         </div>
       </div>
 
