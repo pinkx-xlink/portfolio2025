@@ -22,7 +22,7 @@ export const About = () => {
         to expand my horizons and learn more advanced methods.
         My skills include:
         <br/>
-        °˖ꕥ HTML ꕥ JS ꕥ CSS ꕥ Node.js ꕥ React ꕥ Power BI ꕥ SQL ꕥ˖°
+        <p className='skills'>°˖ꕥ HTML ꕥ JS ꕥ CSS ꕥ Node.js ꕥ React ꕥ Power BI ꕥ SQL ꕥ˖°</p>
         <br/>
         <br/>
 
