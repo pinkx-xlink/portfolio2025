@@ -1,4 +1,5 @@
-
+8/26/2025
+My web developer portfolio for 2025; powered by React.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
