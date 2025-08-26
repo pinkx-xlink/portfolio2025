@@ -72,7 +72,7 @@
 }
 .header-image-container {
   border: 1px inset rgba(252, 252, 252, 0.473);
-  background-image: radial-gradient(rgba(255, 0, 0, 0.575), rgba(255, 255, 255, 0.267));
+  background-image: radial-gradient(rgba(255, 255, 255, 0.589), rgba(255, 0, 0, 0.575));
   border-radius: 200px;
   height: 400px;
   display: flex;
