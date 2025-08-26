@@ -7,4 +7,27 @@
   padding-right: 45px;
   text-shadow: 2px 2px 4px rgba(231, 37, 37, 0.945);
   color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  text-align: center;
 }
+
+.project__item {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #381149;
+    border-radius: 25px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+
+.project__item > img {
+    width: 80%;
+}
+
