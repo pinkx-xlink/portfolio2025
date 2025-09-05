@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1e16d54.css",
+    "main.js": "/static/js/main.91428142.js",
+    "static/js/453.ad7768ec.chunk.js": "/static/js/453.ad7768ec.chunk.js",
+    "static/media/dashboard-screenshot6.png": "/static/media/dashboard-screenshot6.453d4b54e9c4e1e4f16a.png",
+    "static/media/dashboard-screenshot9.png": "/static/media/dashboard-screenshot9.0a2cd22adfae9855fff3.png",
+    "static/media/dashboard-screenshot8.png": "/static/media/dashboard-screenshot8.e09368d11c7294992de4.png",
+    "static/media/dashboard-screenshot7.png": "/static/media/dashboard-screenshot7.976a587302a7134b493c.png",
+    "static/media/dashboard-screenshot10.png": "/static/media/dashboard-screenshot10.9d84ac94fca777dc0142.png",
+    "static/media/dashboard-screenshot1.png": "/static/media/dashboard-screenshot1.707868b94e9ab5815a9b.png",
+    "static/media/dashboard-screenshot.png": "/static/media/dashboard-screenshot.ea7f428309ef55f7b7b5.png",
+    "static/media/pokemonStyleGame.jpeg": "/static/media/pokemonStyleGame.a9c148d94b687278c4ac.jpeg",
+    "static/media/minecraft-site-screenshot.jpeg": "/static/media/minecraft-site-screenshot.76c613e1ccfe3c544bb2.jpeg",
+    "static/media/dashboard-screenshot3.png": "/static/media/dashboard-screenshot3.7138812151e427c59128.png",
+    "static/media/dashboard-screenshot2.png": "/static/media/dashboard-screenshot2.02ab22bc7c83ab6dda3f.png",
+    "static/media/dashboard-screenshot4.png": "/static/media/dashboard-screenshot4.911d7326898186a328b7.png",
+    "static/media/rock-paper-scissors-screenshot.jpeg": "/static/media/rock-paper-scissors-screenshot.dae9bf8bec653137f11a.jpeg",
+    "static/media/googleClone.jpeg": "/static/media/googleClone.18bf573b03fb53be3558.jpeg",
+    "static/media/html-logo.png": "/static/media/html-logo.b39a12ac47cb0bc32b3f.png",
+    "static/media/dashboard-screenshot5.png": "/static/media/dashboard-screenshot5.1fa65c495354840e2670.png",
+    "static/media/nodejs-logo.png": "/static/media/nodejs-logo.e6d661aae7e15e226b30.png",
+    "static/media/css-logo.png": "/static/media/css-logo.5a69faa90f12e2d29f45.png",
+    "static/media/GitHub-Logo.png": "/static/media/GitHub-Logo.05525cd9027955dbe054.png",
+    "static/media/linkedin-logo.webp": "/static/media/linkedin-logo.fe4dbe4730a4a1fd82cf.webp",
+    "static/media/react-logo.svg": "/static/media/react-logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.e1e16d54.css.map": "/static/css/main.e1e16d54.css.map",
+    "main.91428142.js.map": "/static/js/main.91428142.js.map",
+    "453.ad7768ec.chunk.js.map": "/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1e16d54.css",
+    "static/js/main.91428142.js"
+  ]
+}
